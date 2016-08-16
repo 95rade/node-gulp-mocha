@@ -1,5 +1,5 @@
 FROM node:6.3.1
-RUN npm install -g ember-cli
+RUN npm install -g gulp mocha
 
 EXPOSE 3000
 
