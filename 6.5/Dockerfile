@@ -1,4 +1,4 @@
-FROM node:6.3.1
+FROM node:6.5
 RUN npm install -g gulp mocha
 
 EXPOSE 3000
